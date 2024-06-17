@@ -23,7 +23,10 @@
           <a href="./index.html" class="logo"
             >Web<span class="second-up-logo">Studio</span></a
           >
-          <ul class="page-nav">
+          <div class="mobile-menu" id="mobile-menu">
+            <button role="button" class="hamburger"></button>
+          </div>
+          <ul class="page-nav visually-hidden">
             <li>
               <a href="./index.html" class="link link-active">Studio</a>
             </li>
@@ -31,7 +34,7 @@
             <li><a href="" class="link">Contacts</a></li>
           </ul>
         </nav>
-        <address class="contacts-nav">
+        <address class="contacts-nav visually-hidden">
           <ul class="contacts">
             <li>
               <a href="mailto:info@devstudio.com" class="contact"
@@ -559,7 +562,7 @@
       </div>
     </footer>
 
-    <div class="modal-container">
+    <div class="modal-container visually-hidden">
       <div class="modal">
         <button type="button" class="close-button" data-dismiss="modal">
           <svg width="8" height="8" class="close">

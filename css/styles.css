@@ -16,7 +16,8 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  min-width: 320px;
   margin: 0 auto;
   padding: 0 15px 0;
 }
@@ -106,6 +107,11 @@ img {
 }
 .contacts-nav .contact:active {
   color: #404bbf;
+}
+@media (min-width: 768) and (max-width: 1157) {
+  .contacts {
+    flex-direction: column;
+  }
 }
 .servis {
   background-color: #2e2f42;
