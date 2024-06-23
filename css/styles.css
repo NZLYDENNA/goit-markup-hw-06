@@ -140,16 +140,47 @@ ul {
   height: 100%;
   background-color: #ffffff;
 }
-.page-nav-mobile {
+.nav-mobile {
   display: block;
   gap: 40px;
   margin-top: 72px;
   margin-left: 16px;
+}
+.page-nav-mobile {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #2e2f42;
+}
+.page-nav-mobile .link-activ {
+  color: #404bbf;
+}
+.contacts-mobile {
+  top: 440px;
+  left: 16px;
+  gap: 24px;
+}
+.contact-mobile {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #434455;
+}
+.contact-mobile:active {
+  color: #4d5ae5;
+}
+.socials-mobile {
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+.socials-mobile .social-media-mobile {
+  width: 100%;
+  justify-content: space-between;
+  margin: auto 16px;
 }
 
 /*2 sekcja*/
