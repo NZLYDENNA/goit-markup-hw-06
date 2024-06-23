@@ -127,6 +127,15 @@ img {
   background-size: cover;
   margin: auto;
 }
+@media (min-resolution: 192dpi) {
+  .servis {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/people1x2.jpg");
+  }
+}
 .container-servis {
   display: flex;
   flex-direction: column;
@@ -219,9 +228,21 @@ img {
 }
 .personal-cards {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 24px;
   list-style-type: none;
+}
+@media (min-width: 768px) and (max-width: 1157px) {
+  .personal-cards {
+    flex-direction: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1158px) {
+  .personal-cards {
+    flex-direction: flex;
+  }
 }
 .block {
   font-size: 36px;
@@ -299,11 +320,23 @@ img {
 }
 .list-projects {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   column-gap: 24px;
   row-gap: 48px;
   list-style-type: none;
   cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 1157px) {
+  .list-projects {
+    flex-direction: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1158px) {
+  .list-projects {
+    flex-direction: flex;
+  }
 }
 .list-item {
   width: calc((100% - 48px) / 3);
