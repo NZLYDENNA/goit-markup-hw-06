@@ -143,8 +143,8 @@ ul {
 .page-nav-mobile {
   display: block;
   gap: 40px;
-  top: 72px;
-  left: 16px;
+  margin-top: 72px;
+  margin-left: 16px;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
