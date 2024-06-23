@@ -16,6 +16,8 @@ img {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -204,7 +206,7 @@ ul {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-officex2.jpg");
+      url("../images/people-office@2x.jpg");
   }
 }
 .container-servis {
@@ -220,7 +222,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: hsl(0, 0%, 100%);
-  max-width: 496px;
+  max-width: 216px;
   margin-bottom: 48px;
 }
 .button-servis {
@@ -237,6 +239,9 @@ ul {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: calc((100% - 169px) / 2);
+  margin-right: calc((100% - 169px) / 2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .servis .button-servis:hover,
 .servis .button-servis:focus {
